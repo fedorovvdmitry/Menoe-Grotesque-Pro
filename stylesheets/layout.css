@@ -10,8 +10,13 @@ body {
 .t-shirt {
   height: 752px;
 }
-
+/* 3 экран */
 .styletext {
+  height: 864px;
+  position:relative;
+}
+/* 4 экран */
+.lang {
   height: 720px;
   position:relative;
 }
@@ -89,7 +94,10 @@ section p {
 #t-shirt {
   width: 576px;
   margin: 200px 0 0 800px;
-  z-index: 0;
+}
+
+#imgshirt {
+  position: relative;
 }
 
 #yo1 {
@@ -126,7 +134,7 @@ section p {
   font-family: 'MenoeGrotesquePro-italic';
   color: #000000;
   font-size: 45px;
-  position:absolute;
+  position: absolute;
   left: 120px;
   top: 1230px;
 }
@@ -171,13 +179,51 @@ section p {
   top: 0px;
 }
 
+#lang {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 45px;
+  width: 800px;
+  position: relative;
+  left: 120px;
+  top: 0px;
+}
 
+#Grüßgott {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #D1D5FC;
+  font-size: 110px;
+  width: 800px;
+  position: relative;
+  left: 120px;
+  top: 35px;
+}
+
+#Привіт {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #172FF2;
+  font-size: 110px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Привет {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 110px;
+  width: 800px;
+  position: relative;
+  left: 120px;
+  top: 35px;
+}
 
 
 footer {
   height: 300px;
   margin: 60px 0 0 0;
   background-color: #D1D5FC;
+  width: 100%;
 }
 
 footer p {
