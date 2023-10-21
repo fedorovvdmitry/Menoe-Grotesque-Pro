@@ -2,12 +2,21 @@ body {
     font-family: 'MenoeGrotesquePro-Regular';
   }
 
- section h1 {
+ section #left {
     font-family: 'MenoeGrotesquePro-Regular';
     position: absolute;
     left: 720px;
     top: 180px;
     font-size: 110px;
+  }
+
+  section #right {
+    font-family: 'MenoeGrotesquePro-Regular';
+    position: absolute;
+    left: 116px;
+    top: 914px;
+    font-size: 110px;
+
   }
 
   section p {
@@ -53,3 +62,28 @@ body {
     top: 120px;
   }
  
+  #t-shirt {
+    width: 576px;
+    margin: 200px 0 0 800px;
+  }
+
+  footer {
+    height: 300px;
+    margin: 200px 0 0 0;
+    background-color: #D1D5FC;
+  }
+
+  footer p {
+    font-family: 'MenoeGrotesquePro-Regular';
+    color: #000000;
+    font-size: 40px;
+    float: left; 
+    /* position: absolute;
+    left: 720px;
+    top: 600px; */
+  }
+
+  footer img {
+    /* margin: 0 0 0 1080px; */
+    float: right; 
+  }
