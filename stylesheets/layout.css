@@ -13,12 +13,12 @@ body {
 }
 /* 3 экран */
 .styletext {
-  height: 864px;
+  height: 795px;
   position: relative;
 }
 /* 4 экран */
 .lang {
-  height: 500px;
+  height: 570px;
   position: relative;
 }
 /* 5 экран */
@@ -185,14 +185,14 @@ section #right {
   width: 800px;
   position: relative;
   left: 120px;
-  top: 0px;
+  top: 67px;
 }
 
 .langcontainer {
   width: 1200px;
   position: relative;
   left: 120px;
-  top: 33px;
+  top: 103px;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -203,10 +203,8 @@ section #right {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #D1D5FC;
   font-size: 110px;
-  width: 582px;
-  /* position: relative;
-  left: 120px;
-  top: 35px; */
+  width: 520px;
+  margin: 0 60px 0 0;
 }
 
 #Привіт {
@@ -214,21 +212,17 @@ section #right {
   color: #000000;
   font-size: 110px;
   width: 400px;
-  /* position: absolute;
-  left: 700px;
-  top: 78px; */
+  margin: 0 60px 0 0;
+
 }
 
 #Привет {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 110px;
-  width: 442px;
-  /* position: absolute;
-  left: 120px;
-  top: 195px; */
-  /* display: flex;
-  flex-wrap: wrap; */
+  width: 390px;
+  margin: 8px 60px 0 0;
+
 }
 
 #Salut {
@@ -236,13 +230,15 @@ section #right {
   color: #172FF2;
   font-size: 110px;
   width: 400px;
+  margin: 8px 60px 0 0;
 }
 
 #Zdrasti {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #172FF2;
   font-size: 110px;
-  width: 510px;
+  width: 460px;
+  margin: 8px 60px 0 0;
 }
 
 #Γειασου {
@@ -250,6 +246,57 @@ section #right {
   color: #000000;
   font-size: 110px;
   width: 600px;
+  margin: 8px 60px 0 0;
+}
+
+#coin1 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.cointext1 {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 150px;
+  width: 100px;
+  transform: rotate(-47.444deg);
+  position: absolute;
+  right: 72px;
+  top: 20px;
+}
+
+#coin2 {
+  position: absolute;
+  right: 0px;
+  top: 275px;
+}
+
+.cointext2 {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 150px;
+  width: 100px;
+  transform: rotate(24.762deg);
+  position: absolute;
+  right: 72px;
+  top: 323px;
+}
+
+#coin3 {
+  position: absolute;
+  left: 1089px;
+  top: 190px;
+}
+
+.cointext3 {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 150px;
+  width: 100px;
+  position: absolute;
+  right: 192px;
+  top: 230px;
 }
 
 #rectanglepay {
@@ -343,14 +390,14 @@ section #right {
 
 #star8 {
   position: absolute;
-  left: 1055px;
-  top: 0px;
+  left: 1057px;
+  top: 40px;
 }
 
 #star9 {
   position: absolute;
   left: 695px;
-  top: 422px;
+  top: 593px;
 }
 
 
