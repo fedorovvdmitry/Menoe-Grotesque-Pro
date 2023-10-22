@@ -21,6 +21,11 @@ body {
   height: 500px;
   position: relative;
 }
+/* 5 экран */
+.pay {
+  height: 900px;
+  position: relative;
+}
 
 section #left {
   font-family: 'MenoeGrotesquePro-Regular';
@@ -75,23 +80,6 @@ section #right {
   position: absolute;
   left: 700px;
   top: 574px;
-}
-
-#star1 {
-  position: absolute;
-  left: 90px;
-  top: 200px;
-}
-#star2 {
-  position: absolute;
-  left: 938px;
-  top: 425px;
-}
-
-#star3 {
-  position: absolute;
-  left: 1164px;
-  top: 120px;
 }
 
 #t-shirt {
@@ -264,7 +252,90 @@ section #right {
   width: 600px;
 }
 
+#rectanglepay {
+  /* margin: 140px 0 0 120px; */
+  position: relative;
+  left: 120px;
+  top: 140px;
+}
+
+.payimg {
+  position: relative;
+  width: 600px;
+}
+
+#coinsmail {
+  position: relative;
+  left: 345px;
+  top: 45px;
+}
+
+#paytextregular {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 110px;
+  width: 600px;
+  position: absolute;
+  left: 720px;
+  top: 167px;
+}
+
+#paytextitalic {
+  font-family: 'MenoeGrotesquePro-Italic';
+  color: #000000;
+  font-size: 110px;
+  width: 600px;
+  position: absolute;
+  left: 720px;
+  top: 278px;
+}
+
+#arrowleft {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #172FF2;
+  font-size: 110px;
+  width: 600px;
+  position: absolute;
+  left: 720px;
+  top: 393px;
+}
+
+#star1 {
+  position: absolute;
+  left: 90px;
+  top: 200px;
+}
+#star2 {
+  position: absolute;
+  left: 938px;
+  top: 425px;
+}
+
+#star3 {
+  position: absolute;
+  left: 1164px;
+  top: 120px;
+}
+
 #star4 {
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+
+#star5 {
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+
+#star6 {
+  position: absolute;
+  left: 1165px;
+  top: 0px;
+}
+
+#star7 {
   position: relative;
   left: 300px;
   top: 100px;
