@@ -110,6 +110,13 @@ section #right {
   margin: 173px 0 0 82px;
 }
 
+.bigstar {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
 #line {
   width:600px;
   height:4px;
