@@ -27,6 +27,43 @@ body {
   position: relative;
 }
 
+.ticker {
+  height: 362px;
+}
+
+.firstline {
+  height: 112px;
+  background: #D1D5FC;
+  margin: 113px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.imgline {
+ height: 72px;
+ margin: 0 40px 0 40px;
+}
+
+.textfirstline {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 115px;
+}
+
+.secondline {
+  height: 112px;
+  background: #D1D5FC;
+  margin: 24px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.textsecondline {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 115px;
+}
+
 section #left {
   font-family: 'MenoeGrotesquePro-Regular';
   position: absolute;
