@@ -26,9 +26,20 @@ body {
   height: 900px;
   position: relative;
 }
-
+/* 6 экран */
 .ticker {
   height: 362px;
+}
+/* Отступ */
+.otstup {
+  /* height: 1760px; 
+  background-color: antiquewhite;*/
+  height: 50px;
+  
+}
+
+.alternativevariants {
+  height: 700px;
 }
 
 .firstline {
@@ -226,7 +237,7 @@ section #right {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 45px;
-  width: 800px;
+  width: 600px;
   position: relative;
   left: 120px;
   top: 67px;
