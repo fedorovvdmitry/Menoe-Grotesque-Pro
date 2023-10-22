@@ -5,6 +5,7 @@ body {
 /* 1 экран */
 .cover { 
   height: 720px;
+  background-image: url();
 }
 /* 2 экран */
 .t-shirt {
@@ -13,12 +14,12 @@ body {
 /* 3 экран */
 .styletext {
   height: 864px;
-  position:relative;
+  position: relative;
 }
 /* 4 экран */
 .lang {
-  height: 720px;
-  position:relative;
+  height: 500px;
+  position: relative;
 }
 
 section #left {
@@ -38,15 +39,14 @@ section #right {
 
 }
 
-section p {
+/* section p {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 45px;
   position: absolute;
   left: 720px;
   top: 600px;
-  /* margin: 600px 0 0 720px; */
-}
+} */
 
 #caption {
   font-family: 'MenoeGrotesquePro-Regular';
@@ -69,6 +69,9 @@ section p {
 }
 
 #line {
+  width:600px;
+  height:4px;
+  background-color: #172FF2;
   position: absolute;
   left: 700px;
   top: 574px;
@@ -100,6 +103,33 @@ section p {
   position: relative;
 }
 
+#HandwishOnly {
+  margin: 35px 0 0 30px;
+}
+
+#Rectangle1 {
+  width:964px;
+  height: 286px;
+  border: 5px dashed #172FF2;
+
+  font-family: 'MenoeGrotesquePro-italic';
+  color: #000000;
+  font-size: 45px;
+  position: absolute;
+  left: 120px;
+  top: 1230px;
+}
+
+#caption2 {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 45px;
+  width: 650px;
+  position: absolute;
+  left: 120px;
+  top: 80px;
+}
+
 #yo1 {
   font-family: 'MenoeGrotesquePro-italic';
   color: #000000;
@@ -128,25 +158,6 @@ section p {
   position: relative;
   left: 341px;
   top: -773px;
-}
-
-#Rectangle1 {
-  font-family: 'MenoeGrotesquePro-italic';
-  color: #000000;
-  font-size: 45px;
-  position: absolute;
-  left: 120px;
-  top: 1230px;
-}
-
-#caption2 {
-  font-family: 'MenoeGrotesquePro-Regular';
-  color: #000000;
-  font-size: 45px;
-  width: 650px;
-  position: absolute;
-  left: 120px;
-  top: 80px;
 }
 
 #nachertaniya {
@@ -189,33 +200,86 @@ section p {
   top: 0px;
 }
 
+.langcontainer {
+  width: 1200px;
+  position: relative;
+  left: 120px;
+  top: 33px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* display: flex; */
+}
+
 #Grüßgott {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #D1D5FC;
   font-size: 110px;
-  width: 800px;
-  position: relative;
+  width: 582px;
+  /* position: relative;
   left: 120px;
-  top: 35px;
+  top: 35px; */
 }
 
 #Привіт {
   font-family: 'MenoeGrotesquePro-Regular';
-  color: #172FF2;
+  color: #000000;
   font-size: 110px;
-  width: 800px;
-  display: flex;
-  flex-wrap: wrap;
+  width: 400px;
+  /* position: absolute;
+  left: 700px;
+  top: 78px; */
 }
 
 #Привет {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 110px;
-  width: 800px;
-  position: relative;
+  width: 442px;
+  /* position: absolute;
   left: 120px;
-  top: 35px;
+  top: 195px; */
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+#Salut {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #172FF2;
+  font-size: 110px;
+  width: 400px;
+}
+
+#Zdrasti {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #172FF2;
+  font-size: 110px;
+  width: 510px;
+}
+
+#Γειασου {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 110px;
+  width: 600px;
+}
+
+#star4 {
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+
+#star8 {
+  position: absolute;
+  left: 1055px;
+  top: 0px;
+}
+
+#star9 {
+  position: absolute;
+  left: 695px;
+  top: 422px;
 }
 
 
