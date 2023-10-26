@@ -2,13 +2,11 @@
     font-family: "MenoeGrotesquePro-Italic";
     src: url("https://fedorovvdmitry.github.io/Menoe-Grotesque-Pro/fonts/Menoe_Grotesque_Pro_Italic.otf") format("opentype");
     font-weight: normal;
-    }
+}
 
-    
-    
-    @font-face {
+@font-face {
     font-family: "MenoeGrotesquePro-Regular";
     src: url("https://fedorovvdmitry.github.io/Menoe-Grotesque-Pro/fonts/Menoe_Grotesque_Pro_Regular.otf") format("opentype");
     font-weight: normal;
-    }
+}
     
