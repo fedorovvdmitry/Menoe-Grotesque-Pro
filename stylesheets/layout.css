@@ -1,5 +1,15 @@
 body {
   font-family: 'MenoeGrotesquePro-Regular';
+  width: 100%;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+section {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 /* 1 экран */
@@ -139,7 +149,12 @@ section #right {
 
 #t-shirt {
   width: 576px;
+  height: 542px;
   margin: 200px 0 0 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/t-shirt.svg);
 }
 
 #imgshirt {
@@ -154,13 +169,13 @@ section #right {
   width:964px;
   height: 286px;
   border: 5px dashed #172FF2;
-
   font-family: 'MenoeGrotesquePro-italic';
   color: #000000;
   font-size: 45px;
   position: absolute;
   left: 120px;
   top: 1230px;
+  z-index: -1;
 }
 
 #caption2 {
@@ -177,30 +192,24 @@ section #right {
   font-family: 'MenoeGrotesquePro-italic';
   color: #000000;
   font-size: 230px;
-  width: 40px;
-  position: relative;
-  left: 95px;
-  top: -322px;
+  width: 119px;
+  margin-top: 150px;
 }
 
 #yo2 {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 230px;
-  width: 40px;
-  position: relative;
-  left: 229px;
-  top: -513px;
+  width: 108px;
+  margin-top: 266px;
 }
 
 #yo3 {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 230px;
-  width: 40px;
-  position: relative;
-  left: 341px;
-  top: -773px;
+  width: 153px;
+  margin-top: 150px;
 }
 
 #styletext_p {
@@ -347,7 +356,6 @@ section #right {
 }
 
 #rectanglepay {
-  /* margin: 140px 0 0 120px; */
   position: relative;
   left: 120px;
   top: 140px;
