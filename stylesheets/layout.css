@@ -5,7 +5,6 @@ body {
 /* 1 экран */
 .cover { 
   display: flex;
-  /* justify-content: space-evenly; */
   height: 720px;
 }
 /* 2 экран */
@@ -15,8 +14,9 @@ body {
 /* 3 экран */
 .styletext {
   height: 795px;
-  position: relative;
-  background-image: url("https://sun9-65.userapi.com/impg/9tQ6fdhSgBZoOtL9xR2Jpzr1Sp5WhbOKj62PmA/c73xbtOIcWE.jpg?size=1440x786&quality=96&sign=2b8cee6657eddba8e824c2d1adef2284&type=album");
+  width: 100%;
+  display: flex;
+  background-image: url("../images/bg_styletext.svg");
 }
 /* 4 экран */
 .lang {
@@ -84,9 +84,6 @@ body {
 #fontname {
   font-family: 'MenoeGrotesquePro-Regular';
   font-size: 110px;
-  /* position: absolute;
-  left: 720px;
-  top: 180px; */
   margin: 140px 0 0 50px;
   width: 600px;
 }
@@ -102,9 +99,6 @@ body {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #172FF2;
   font-size: 45px;
-  /* position: absolute;
-  left: 725px;
-  top: 600px; */
   margin: 32px 0 0 55px; 
 }
 
@@ -230,14 +224,12 @@ section #right {
   top: -773px;
 }
 
-#nachertaniya {
+#styletext_p {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 45px;
   width: 800px;
-  position: relative;
-  left: 120px;
-  top: 0px;
+  margin: 10px 0 0 150px;
 }
 
 #regular {
@@ -245,9 +237,7 @@ section #right {
   color: #000000;
   font-size: 300px;
   width: 800px;
-  position: relative;
-  left: 84px;
-  top: 0px;
+  margin: 20px 0 0 120px;
 }
 
 #italic {
@@ -255,9 +245,7 @@ section #right {
   color: #000000;
   font-size: 340px;
   width: 800px;
-  position: relative;
-  left: 84px;
-  top: 0px;
+  margin-left: 120px;
 }
 
 #lang {
@@ -441,12 +429,6 @@ section #right {
   top: 100px;
 }
 
-#star6 {
-  position: absolute;
-  left: 1165px;
-  top: 0px;
-}
-
 #star7 {
   position: relative;
   left: 300px;
@@ -463,6 +445,50 @@ section #right {
   position: absolute;
   left: 695px;
   top: 593px;
+}
+
+.glyphs {
+  display: flex;
+}
+
+#hglyphs {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #172FF2;
+  font-size: 110px;
+  width: 20px;
+  margin: 0 0 0 120px;
+}
+
+#glyphs_first {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 45px;
+  width: 600px;
+  margin: 0 0 0 120px;
+}
+
+#glyphs_second {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 45px;
+  width: 600px;
+  margin: 0 0 0 120px;
+}
+
+#washing_machine_two {
+  background-image: url(../images/washing_machine_two.svg);
+  width: 567px;
+  height: 531px;
+  margin: 10px 0 0 0px;
+}
+
+#Error {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #172FF2;
+  font-size: 110px;
+  width: 60px;
+  margin: 180px 0 0 250px;
+  transform: rotate(-15.674deg);
 }
 
 
