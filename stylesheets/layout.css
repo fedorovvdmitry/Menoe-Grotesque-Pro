@@ -33,18 +33,11 @@ body {
   height: 362px;
   width: 100%;
 }
-/* Отступ */
-.otstup {
-  /* height: 1760px; 
-  background-color: antiquewhite;*/
-  height: 50px;
-  
-}
 
 .alternativevariants {
-  height: 700px;
   width: 100%;
-
+  height: 602px;
+  background-image: url("../images/clotheslines.svg");
 }
 
 .firstline {
@@ -53,6 +46,7 @@ body {
   margin: 113px 0 0 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .imgline {
@@ -73,6 +67,7 @@ body {
   margin: 24px 0 0 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .textsecondline {
@@ -110,22 +105,6 @@ section #right {
   font-size: 110px;
 
 }
-
-/* section p {
-  font-family: 'MenoeGrotesquePro-Regular';
-  color: #000000;
-  font-size: 45px;
-  position: absolute;
-  left: 720px;
-  top: 600px;
-} */
-
-
-
-/* section img {
-  width: 576px;
-  margin: 173px 0 0 82px;
-} */
 
 .washing_machine {
   background-image: url(../images/washing_machine.svg);
@@ -253,9 +232,7 @@ section #right {
   color: #000000;
   font-size: 45px;
   width: 600px;
-  position: relative;
-  left: 120px;
-  top: 67px;
+  margin: 0 0 0 120px;
 }
 
 .langcontainer {
@@ -447,32 +424,79 @@ section #right {
   top: 593px;
 }
 
-.glyphs {
+.washing_modes {
   display: flex;
+  justify-content: center;
+  height: 720px;
+}
+
+#washing_modes_img {
+  height: 561px;
+}
+
+.glyphs_section {
+  display: flex;
+  height: 600px;
 }
 
 #hglyphs {
   font-family: 'MenoeGrotesquePro-Regular';
-  color: #172FF2;
+  color: #000000;
   font-size: 110px;
   width: 20px;
   margin: 0 0 0 120px;
 }
 
-#glyphs_first {
-  font-family: 'MenoeGrotesquePro-Regular';
-  color: #000000;
-  font-size: 45px;
+#bubble_first {
+  height: 73px;
   width: 600px;
-  margin: 0 0 0 120px;
+  margin: 40px 0 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/bubble_first.svg");
+
 }
 
-#glyphs_second {
+#bubble_second {
+  height: 73px;
+  width: 409px;
+  margin: 32px 0 0 221px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/bubble_second.svg");
+}
+
+#bubble_third {
+  height: 73px;
+  width: 327px;
+  margin: 32px 0 0 383px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/bubble_third.svg");
+}
+
+.glyphs1 {
   font-family: 'MenoeGrotesquePro-Regular';
   color: #000000;
   font-size: 45px;
-  width: 600px;
-  margin: 0 0 0 120px;
+  width: 530px;
+}
+
+.glyphs2 {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 45px;
+  width: 350px;
+}
+
+.glyphs3 {
+  font-family: 'MenoeGrotesquePro-Regular';
+  color: #000000;
+  font-size: 45px;
+  width: 280px;
 }
 
 #washing_machine_two {
@@ -490,7 +514,6 @@ section #right {
   margin: 180px 0 0 250px;
   transform: rotate(-15.674deg);
 }
-
 
 footer {
   height: 300px;
